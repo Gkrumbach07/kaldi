@@ -1,5 +1,5 @@
-
-FROM debian:9.8
+FROM https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.6.0-amd64-netinst.iso
+#FROM debian:9.8
 LABEL maintainer="mdoulaty@gmail.com"
 
 RUN apt-get update && \
